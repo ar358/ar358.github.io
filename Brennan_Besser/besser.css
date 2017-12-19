@@ -1,0 +1,15 @@
+.title_background, .background2{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.title_background{
+    background-image: url(images/besser_tourney.jpg);
+    min-height: 81em;
+}
+
+.background2{
+    background-position: center;
+    background-image: url(images/besser_countdown.jpg)  ;
+    min-height: 52em;
+}

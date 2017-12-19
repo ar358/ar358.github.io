@@ -1,0 +1,75 @@
+/*all photos */
+.title_background{
+    /* Creates the parallax scrolling effect */
+    background-image: url(../images/huddle.jpg);
+    min-height: 75em;
+    background-attachment: fixed;
+/*    background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.scroll_box{
+    background: lightgray;
+    padding: 2.166em 6.66em;
+    text-align: justify;
+    color: black;
+    line-height: 2em;
+}
+.scroll_box h1, h2{
+    text-align: center;
+    letter-spacing: 0.2em;
+    width: 100%;
+}
+
+h2{
+    text-decoration: underline;
+    font-family: Lato;
+}
+
+.text{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto; 
+    padding: 1em;
+    line-height: 2.5em;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+/*PLAYER PORTRAITS*/
+.player{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em; 
+}
+
+.watchlist{
+    width: 100%;
+}
+
+.juniors, .sophomores, .frosh_group1, .frosh_group2{
+    width: 100%;
+}
+
+.junior{
+    float: left;
+    width: 50%;
+    height: auto; 
+}
+
+
+
+.soph, .frosh{
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+.empty{
+    text-decoration: none;
+}
+
+
+
+

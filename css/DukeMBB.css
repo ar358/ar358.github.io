@@ -1,0 +1,202 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Lato;
+    color: black;
+}
+/*turn off parallax scrolling for tablets and phones*/
+@media only screen and (max-device-width: 1024px) {
+    .title_background, .background2 {
+        background-attachment: scroll;
+    }
+}
+
+/*NAVIGATION BAR*/
+.navigation-bar{
+    background-color: #00009c;
+}
+.navbar-brand, li{
+    font-size: 1.2em;  
+}
+
+/*TITLE CAPTION*/
+.title {
+    position: absolute;
+    font-size: 200%;
+    left: 0;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1px black;
+}
+
+.title span.border {
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+}
+/*PLAYER CARD*/
+/* https://www.w3schools.com/howto/howto_css_cards.asp*/
+.basic_profile {
+    margin-right: auto;
+    margin-left: auto;
+    transition: 0.3s;
+    width: 40%;
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,1);
+}
+
+.profile-container {
+    text-align: center;
+    padding: 0.125em 1em;
+}
+
+.profile-image{
+    text-align: center;
+}
+/*Scroll Box*/
+.scroll_box{
+    background: lightgray;
+    padding: 2.166em 6.66em;
+    text-align: justify;
+    line-height: 2em;
+    display: inline-block;
+}
+
+.scroll_box h1, h2{
+    text-align: center;
+    letter-spacing: 0.2em;
+    width: 100%;
+}
+
+.link{
+    color: black;
+    text-decoration: underline;    
+}
+
+.link:hover{
+    text-decoration: none;
+    color: #00009c;
+}
+
+.bio_text, .role_text{  
+    padding: 1em;
+    line-height: 2.5em;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.short_role_text{
+    padding: 1em;
+    line-height: 2.5em;
+    font-size: 1.1em;
+    text-align: justify;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.portrait{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 2em;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: nowrap;   
+}
+
+/*youtube section*/
+
+.youtube{
+    padding-top: 1em;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.youtube_text{
+    width: 55%;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 2.5em;
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 2.5em;
+}
+
+.video{
+    width: 50%;
+    height: 25em;
+    border: 0em; 
+}
+
+/* ACCOMPLISHMENTS BUTTON */
+.accomplishments{
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.accomplishments_buttons{
+    padding-top: 1em;
+}
+
+.accomplishments .collapse-button{
+    text-align: center;
+}
+
+.accomplishments button{
+    width: 33%;
+    color: ghostwhite;
+    background-color: #00009c;
+}
+.accomplishments button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 200; 
+}
+
+.btn-primary:focus{
+    background-color: white;
+    color: black;
+    
+}
+
+/* used for the button */
+.card ul{
+    list-style-type: none;  
+    width: 50%;
+    padding: 1em;
+    margin-right: auto;
+    margin-left: auto;  
+} 
+
+.card li{
+    text-align: center;
+}
+
+/*PHOTO CAROUSEL*/
+.galleria{ 
+    max-width: 43.75em; 
+    height: 25em; 
+    background: #000; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*FOOTER BAR */
+#footer_bar {
+    background-color: #00009c;
+    padding: 1.25em;
+    color: whitesmoke;
+    text-decoration: none; 
+    font-size: 1em; 
+    text-align: center;
+}
+
+#footer_text{
+    text-align: center;
+}
+
+/*@media only screen and (max-device-width: 1024px){}*/

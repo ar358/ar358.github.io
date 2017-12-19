@@ -1,0 +1,16 @@
+.title_background, .background2{  
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title_background{
+    background-position: center;
+    background-image: url(images/allen_smiling.jpg);
+    min-height: 75em;
+}
+
+.background2{
+    background-image: url(images/allen_background.jpg);
+    min-height: 55em;
+}

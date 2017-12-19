@@ -1,0 +1,57 @@
+body{font-family: Lato; }
+
+/*all photos */
+.cameron, .countdown, .banners, .devil{
+    /* Creates the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.cameron{
+     background-image: url(../images/cameron_indoor_stadium.jpg);
+    /* Set a minimum heigh of the photo */
+    min-height: 80.5em;  
+}
+
+.countdown{
+    background-image: url(../images/countdown.jpg);
+    /* Set a minimum heigh of the photo */
+    min-height: 49em;   
+}
+
+.banners{
+    background-image: url(../images/banners.jpg);
+    /* Set a minimum heigh of the photo */
+    min-height: 45em;      
+}
+.devil {
+    background-image: url(../images/new_team_same_dream.jpg);
+    min-height: 46em;      
+}
+
+/*PARAGRAPH TEXT*/
+.scroll_box{
+    background: lightgray;
+    padding: 2.166em 6.66em;
+    text-align: justify;
+    color: black;
+    line-height: 2em;
+}
+
+.scroll_box h1{
+    text-align: center;
+    letter-spacing: 0.2em;
+    
+}
+
+.scroll_box p{
+    padding: 1em;
+    line-height: 2.5em;
+    font-size: 1.1em;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+

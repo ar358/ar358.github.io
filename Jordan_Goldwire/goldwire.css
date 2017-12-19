@@ -1,0 +1,14 @@
+.title_background, .background2{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.title_background{
+    background-image: url(images/goldwire_game.jpg);
+    min-height: 83em;
+}
+
+.background2{
+    background-image: url(images/goldwire_background.jpg);
+    min-height: 54em;
+}

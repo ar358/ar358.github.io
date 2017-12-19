@@ -1,0 +1,17 @@
+
+.title_background, .background2{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.title_background{
+    background-position: center;
+    background-image: url(images/bagley_background.jpg);
+    min-height: 82em;
+}
+
+.background2{
+    background-image: url(images/bagley_coachK.jpg);
+    min-height: 55em;
+}
+

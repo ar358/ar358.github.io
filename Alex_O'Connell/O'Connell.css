@@ -1,0 +1,16 @@
+.title_background, .background2{
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.title_background{
+    background-image: url(images/alex_background.jpg);
+    min-height: 83em;
+}
+
+.background2{
+/*    background-position: center;*/
+    background-image: url(images/alex_background2.jpg);
+    min-height: 54em;
+}

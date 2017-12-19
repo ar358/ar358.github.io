@@ -1,5 +1,6 @@
-I made this project for fun about the Duke Men's basketball team for my final project for one of my classes,
-and I wanted to showcase my CSS, JS, and HTML skills through this project.
+I made this project for fun about the Duke Men's basketball team for an open final project website for one of my classes.
+As a huge fan of Duke basketball, I wanted to create a website for fans of all levels (casual, intermediate, and hardcore fans)
+that would allow them to familiarize themselves with the players. 
 
 Here's the link to access the website: https://ar358.github.io/
 
